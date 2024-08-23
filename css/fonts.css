@@ -18,3 +18,25 @@
     url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular")
       format("svg");
 }
+
+@font-face {
+  font-family: 'queque';
+  src: url('./fonts/QuinqueFive.ttf'),
+      url('./fonts/QuinqueFive.otf'),
+      url('./fonts/QuinqueFive.wof');
+  font-weight: 400;
+}
+
+
+.heroTitleBox_span0, .mainTitleBox_span0{
+  font-family: 'queque' !important;
+  font-weight: 400;
+  font-size: 40px !important;
+}
+
+.gameTitleContainer_span0, .gameTitleHeader_span0,
+.mainTitleBox_span0, .galleryHeader, .contactTitleBox_span0{
+  font-family: 'queque' !important;
+  font-weight: 400;
+
+}
